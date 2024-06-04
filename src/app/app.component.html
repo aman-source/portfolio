@@ -58,7 +58,9 @@
     <h3>Certifications</h3>
     <ul>
       @for (cert of certifications; track cert) {
-      <li>{{ cert }}</li>
+      <a [href]="cert.link" target="_blank">
+        <li>{{cert.label}}</li>
+      </a>
       }
     </ul>
   </section>

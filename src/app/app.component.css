@@ -137,6 +137,13 @@ p {
     font-size: 1.1em;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+
+}
+
 /* Project Descriptions */
 section div p {
     margin: 10px 0;

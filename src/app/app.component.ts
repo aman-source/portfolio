@@ -63,13 +63,13 @@ export class AppComponent implements OnInit {
     { degree: 'Narayana Olympiad School', institution: '', dates: '04/2015 – 04/2016' }
   ];
   certifications = [
-    'Introduction to Cloud Computing | IBM Skills Network',
-    'Getting Started with Git and GitHub | IBM Skills Network',
-    'Elements of AI | University of Helsinki',
-    'DSA in Python by GFG',
-    'Introduction to Web Development with HTML, CSS, JavaScript | IBM Skills Network',
-    'Python for Data Science, AI & Development | IBM Skills Network',
-    'Microsoft AI-900'
+    { label: 'Introduction to Cloud Computing | IBM Skills Network', link: 'https://coursera.org/share/6ef685f0c31dd52aa3f9f5a073cc0a65' },
+    { label: 'Getting Started with Git and GitHub | IBM Skills Network', link: 'https://coursera.org/share/efcd52a8c09f79a6a093bd1695011a19' },
+    { label: 'Elements of AI | University of Helsinki', link: 'https://certificates.mooc.fi/validate/nonoy8v5d7p' },
+    { label: 'DSA in Python by GFG', link: 'https://media.geeksforgeeks.org/courses/certificates/e08288e40d8c20bc1713e0f3bb286cf7.pdf' },
+    { label: 'Introduction to Web Development with HTML, CSS, JavaScript | IBM Skills Network', link: 'https://coursera.org/share/bb52fbd1b617c9cdcaaa3644f73dc4b6' },
+    { label: 'Python for Data Science, AI & Development | IBM Skills Network', link: 'http://example.com/python-data-science' },
+    { label: 'Microsoft AI-900', link: 'https://learn.microsoft.com/en-us/users/amanshaik-5548/transcript/7xr4zh5gw3qz0zx' }
   ];
   projects = [
     { title: 'Algorithmic Trading, Backtest, Optimize & Automate in Python', description: 'Developed automated trading strategies in Python for cryptocurrencies. Optimized trading strategies to maximize returns. Implemented backtesting methodologies to evaluate strategy performance.' },
